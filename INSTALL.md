@@ -10,10 +10,11 @@ git clone https://github.com/dracula/foobar.git
 
 #### Install manually
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+Download using the [GitHub `.zip` download](https://github.com/dracula/anytype/archive/main.zip) option and unzip them.
 
 #### Activating theme
 
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+1. Unzip main.zip
+2. Copy custom.css file to your Anytype's work directory
+   ![image](https://github.com/user-attachments/assets/b22c6533-ae58-46ef-a686-887005073f28)
+4. Relaunch Anytype
