@@ -1,6 +1,6 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [Anytype](https://anytype.io/)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark theme for [Anytype](https://anytype.io/).
 
 ![Screenshot](./screenshot.png)
 
@@ -12,7 +12,7 @@ All instructions can be found at [draculatheme.com/foobar](https://draculatheme.
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/anytype/graphs/contributors).
 
-| [![Saif El-Deen Essam](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha)|
+| [![Saif El-Deen Essam](https://avatars.githubusercontent.com/u/130001839?v=4?size=100)](https://github.com/sudo-saif)|
 | ----------------------------------------------------------------------------------------|
 | [Saif El-Deen Essam](https://github.com/sudo-saif) |
 
