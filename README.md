@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/anytype).
+All instructions can be found at [draculatheme.com/anytype](https://draculatheme.com/anytype).
 
 ## Team
 
