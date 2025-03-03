@@ -17,4 +17,4 @@ Download using the [GitHub `.zip` download](https://github.com/dracula/anytype/a
 1. Unzip main.zip
 2. Copy custom.css file to your Anytype's work directory
    ![image](https://github.com/user-attachments/assets/b22c6533-ae58-46ef-a686-887005073f28)
-4. Relaunch Anytype
+3. Click on "Apply custom CSS"
