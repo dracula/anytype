@@ -12,9 +12,9 @@ All instructions can be found at [draculatheme.com/anytype](https://draculatheme
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/anytype/graphs/contributors).
 
-| [![Saif El-Deen Essam](https://github.com/sudo-saif.png?size=100)](https://github.com/sudo-saif)|
-| ----------------------------------------------------------------------------------------|
-| [Saif El-Deen Essam](https://github.com/sudo-saif) |
+| [![Saif El-Deen Essam](https://github.com/sudo-saif.png?size=100)](https://github.com/sudo-saif) |
+| ------------------------------------------------------------------------------------------------ |
+| [Saif El-Deen Essam](https://github.com/sudo-saif)                                               |
 
 ## Community
 

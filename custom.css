@@ -1,0 +1,436 @@
+:root {
+  --color0: #282a36;
+  --color1: #333644;
+  --color2: #434c5e;
+  --color3: #4c566a;
+  --color4: #f8f8f2;
+  --color5: #e5e9f0;
+  --color6: #eceff4;
+  --color7: #b6f3e4;
+  --color8: #92e9fc;
+  --color9: #81a1c1;
+  --color10: #6272a4;
+  --color11: #fa5259;
+  --color12: #fcb871;
+  --color13: #f0fa91;
+  --color14: #5dfb7f;
+  --color15: #bd92f7;
+  --color16: #fb77c5;
+  --color17: #f8f8f2;
+  --color18: #f0fa91;
+  --color19: #fcb871;
+  --color20: #fa5259;
+  --color21: #fb77c5;
+  --color22: #bd92f7;
+  --color23: #6472a3;
+  --color24: #92e9fc;
+  --color25: #b6f3e4;
+  --color26: #5dfb7f;
+
+  /* --------- VARIOUS OBJECTS IN LIGHT MODE --------- */
+
+  --color-text-primary: var(--color0) !important;
+  --color-text-secondary: var(--color3) !important;
+  --color-text-tertiary: #656565 !important; /* Dark Grey - similar to original */
+  --color-text-inversion: var(--color6) !important;
+  --color-text-primary-inversion: var(--color4) !important;
+  --color-text-secondary-inversion: var(--color9) !important;
+  --color-text-tertiary-inversion: var(--color3) !important;
+
+  /* Shape */
+
+  --color-shape-primary: var(--color5) !important;
+  --color-shape-secondary: var(--color5) !important;
+  --color-shape-secondary-inversion: var(--color2) !important;
+  --color-shape-tertiary: var(--color5) !important;
+
+  --color-shape-highlight-dark: rgba(
+    46,
+    52,
+    64,
+    0.24
+  ) !important; /* var(--color0) with transparency */
+  --color-shape-highlight-medium: rgba(
+    46,
+    52,
+    64,
+    0.12
+  ) !important; /* var(--color0) with transparency */
+  --color-shape-highlight-light: rgba(
+    46,
+    52,
+    64,
+    0.06
+  ) !important; /* var(--color0) with transparency */
+
+  --color-shape-highlight-add: rgba(
+    163,
+    190,
+    140,
+    0.5
+  ) !important; /* var(--color14) with transparency */
+  --color-shape-highlight-change: rgba(
+    94,
+    129,
+    172,
+    0.3
+  ) !important; /* var(--color10) with transparency */
+  --color-shape-highlight-remove: rgba(
+    191,
+    97,
+    106,
+    0.5
+  ) !important; /* var(--color11) with transparency */
+
+  /* Control */
+
+  --color-control-accent: var(--color10) !important;
+  --color-control-active: var(--color17) !important;
+  --color-control-active-inversion: var(--color9) !important;
+  --color-control-inactive: var(--color4) !important;
+  --color-control-bg: var(--color6) !important;
+
+  /* Background */
+
+  --color-bg-primary: var(--color6) !important;
+  --color-bg-secondary: var(--color5) !important;
+  --color-bg-tertiary: var(--color4) !important;
+  --color-bg-primary-inversion: var(--color0) !important;
+  --color-bg-loader: rgba(
+    236,
+    239,
+    244,
+    0.7
+  ) !important; /* var(--color6) with transparency */
+
+  /* System */
+
+  --color-system-accent-125: var(--color13) !important;
+  --color-system-accent-100: var(--color13) !important;
+  --color-system-accent-50: var(--color13) !important;
+  --color-system-accent-25: var(--color13) !important;
+  --color-system-selection: rgba(
+    94,
+    129,
+    172,
+    0.25
+  ) !important; /* var(--color10) with transparency */
+  --color-system-drop-zone: rgba(
+    235,
+    203,
+    139,
+    0.5
+  ) !important; /* var(--color13) with transparency */
+
+  /* Color */
+
+  --color-grey: var(--color4) !important;
+  --color-yellow: var(--color13) !important;
+  --color-orange: var(--color12) !important;
+  --color-red: var(--color11) !important;
+  --color-pink: var(--color16) !important;
+  --color-purple: var(--color14) !important;
+  --color-blue: var(--color10) !important;
+  --color-ice: var(--color8) !important;
+  --color-teal: var(--color7) !important;
+  --color-lime: var(--color14) !important;
+}
+
+/* --------- FONT COLOURS IN DARK MODE --------- */
+
+html.themeDark {
+  --color-grey: var(--color17) !important;
+  --color-yellow: var(--color18) !important;
+  --color-orange: var(--color19) !important;
+  --color-red: var(--color20) !important;
+  --color-pink: var(--color21) !important;
+  --color-purple: var(--color22) !important;
+  --color-blue: var(--color23) !important;
+  --color-ice: var(--color24) !important;
+  --color-teal: var(--color25) !important;
+  --color-lime: var(--color26) !important;
+}
+
+/* --------- VARIOUS OBJECTS IN DARK MODE --------- */
+
+html.themeDark {
+  --color-text-primary: var(--color6) !important;
+  --color-text-secondary: var(--color4) !important;
+  --color-text-tertiary: var(--color14) !important;
+  --color-text-inversion: var(--color0) !important;
+  --color-shape-primary: var(--color3) !important;
+  --color-shape-secondary: var(--color2) !important;
+  --color-shape-tertiary: var(--color1) !important;
+  --color-shape-highlight-dark: rgba(
+    216,
+    222,
+    233,
+    0.24
+  ) !important; /* var(--color4) with transparency */
+  --color-shape-highlight-medium: rgba(
+    216,
+    222,
+    233,
+    0.12
+  ) !important; /* var(--color4) with transparency */
+  --color-shape-highlight-light: rgba(
+    216,
+    222,
+    233,
+    0.06
+  ) !important; /* var(--color4) with transparency */
+  --color-shape-highlight-light-solid: var(--color3) !important;
+  --color-control-accent: var(--color10) !important;
+  --color-control-active: var(--color10) !important;
+  --color-control-inactive: var(--color3) !important;
+  --color-control-bg: var(--color0) !important;
+  --color-bg-primary: var(--color0) !important;
+  --color-bg-secondary: var(--color1) !important;
+  --color-bg-tertiary: var(--color2) !important;
+  --color-bg-loader: rgba(
+    46,
+    52,
+    64,
+    0.7
+  ) !important; /* var(--color0) with transparency */
+  --color-system-accent-125: var(--color13) !important;
+  --color-system-accent-50: var(--color12) !important;
+  --color-system-accent-25: var(--color11) !important;
+  --color-system-selection: rgba(
+    94,
+    129,
+    172,
+    0.45
+  ) !important; /* var(--color10) with transparency */
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color3) !important;
+}
+
+/* --------- HIGHLIGHT COLOURS IN LIGHT MODE --------- */
+
+:root {
+  .bgColor-grey {
+    background: var(--color4) !important;
+  }
+  .bgColor-yellow {
+    background: var(--color13) !important;
+  }
+  .bgColor-orange {
+    background: var(--color12) !important;
+  }
+  .bgColor-red {
+    background: var(--color11) !important;
+  }
+  .bgColor-pink {
+    background: var(--color16) !important;
+  }
+  .bgColor-purple {
+    background: var(--color15) !important;
+  }
+  .bgColor-blue {
+    background: var(--color10) !important;
+  }
+  .bgColor-ice {
+    background: var(--color8) !important;
+  }
+  .bgColor-teal {
+    background: var(--color7) !important;
+  }
+  .bgColor-lime {
+    background: var(--color14) !important;
+  }
+}
+
+/* --------- HIGHLIGHT COLOURS IN DARK MODE --------- */
+
+html.themeDark {
+  .bgColor-grey {
+    background: var(--color3) !important;
+  }
+  .bgColor-yellow {
+    background: var(--color13) !important;
+  }
+  .bgColor-orange {
+    background: var(--color12) !important;
+  }
+  .bgColor-red {
+    background: var(--color11) !important;
+  }
+  .bgColor-pink {
+    background: var(--color16) !important;
+  }
+  .bgColor-purple {
+    background: var(--color15) !important;
+  }
+  .bgColor-blue {
+    background: var(--color10) !important;
+  }
+  .bgColor-ice {
+    background: var(--color8) !important;
+  }
+  .bgColor-teal {
+    background: var(--color7) !important;
+  }
+  .bgColor-lime {
+    background: var(--color14) !important;
+  }
+}
+
+/* --------- TAG COLOURS IN LIGHT MODE --------- */
+
+:root {
+  .isMultiSelect.tagColor-grey {
+    color: var(--color0) !important;
+    background: var(--color4) !important;
+  }
+  .isMultiSelect.tagColor-yellow {
+    color: var(--color0) !important;
+    background: var(--color13) !important;
+  }
+  .isMultiSelect.tagColor-orange {
+    color: var(--color0) !important;
+    background: var(--color12) !important;
+  }
+  .isMultiSelect.tagColor-red {
+    color: var(--color6) !important;
+    background: var(--color11) !important;
+  }
+  .isMultiSelect.tagColor-pink {
+    color: var(--color0) !important;
+    background: var(--color16) !important;
+  }
+  .isMultiSelect.tagColor-purple {
+    color: var(--color0) !important;
+    background: var(--color15) !important;
+  }
+  .isMultiSelect.tagColor-blue {
+    color: var(--color6) !important;
+    background: var(--color10) !important;
+  }
+  .isMultiSelect.tagColor-ice {
+    color: var(--color0) !important;
+    background: var(--color8) !important;
+  }
+  .isMultiSelect.tagColor-teal {
+    color: var(--color0) !important;
+    background: var(--color7) !important;
+  }
+  .isMultiSelect.tagColor-lime {
+    color: var(--color0) !important;
+    background: var(--color14) !important;
+  }
+}
+
+/* --------- TAG COLOURS IN DARK MODE --------- */
+
+html.themeDark {
+  .isMultiSelect.tagColor-grey {
+    color: var(--color6) !important;
+    background: var(--color3) !important;
+  }
+  .isMultiSelect.tagColor-yellow {
+    color: var(--color0) !important;
+    background: var(--color13) !important;
+  }
+  .isMultiSelect.tagColor-orange {
+    color: var(--color6) !important;
+    background: var(--color12) !important;
+  }
+  .isMultiSelect.tagColor-red {
+    color: var(--color6) !important;
+    background: var(--color11) !important;
+  }
+  .isMultiSelect.tagColor-pink {
+    color: var(--color0) !important;
+    background: var(--color16) !important;
+  }
+  .isMultiSelect.tagColor-purple {
+    color: var(--color0) !important;
+    background: var(--color15) !important;
+  }
+  .isMultiSelect.tagColor-blue {
+    color: var(--color6) !important;
+    background: var(--color10) !important;
+  }
+  .isMultiSelect.tagColor-ice {
+    color: var(--color0) !important;
+    background: var(--color8) !important;
+  }
+  .isMultiSelect.tagColor-teal {
+    color: var(--color0) !important;
+    background: var(--color7) !important;
+  }
+  .isMultiSelect.tagColor-lime {
+    color: var(--color0) !important;
+    background: var(--color14) !important;
+  }
+}
+
+/* --------- STYLES FOR THE HIGHLIGHTS & BLOCK BACKGROUNDS IN DARK MODE --------- */
+
+/* Universal styles for highlighting and curved corners */
+
+/* Styles for blocks with custom background */
+.bgColor,
+[style*="background-color"] {
+  border-radius: 3px;
+}
+
+/* Styles for inline highlights */
+mark,
+span[style*="background-color"] {
+  border-radius: 3px;
+  padding: 0 3px; /* Add some padding for better appearance */
+}
+
+/* Dark mode specific styles */
+html.themeDark {
+  /* Default text color for dark mode */
+  color: var(--color6) !important;
+
+  /* Styles for highlighted text or blocks with custom background in dark mode */
+  .bgColor,
+  [style*="background-color"] {
+    color: var(--color0) !important;
+  }
+
+  /* Ensure text remains black in editable areas with custom background in dark mode */
+  .wrapContent.bgColor .editableWrap,
+  .wrapContent[style*="background-color"] .editableWrap {
+    color: var(--color0) !important;
+  }
+}
+
+/* Light mode specific styles */
+:root {
+  /* Default text color for light mode */
+  color: var(--color0) !important;
+
+  /* Ensure text remains visible on custom backgrounds in light mode */
+  .bgColor,
+  [style*="background-color"] {
+    color: var(--color0) !important;
+  }
+}
+
+/* Spaces Bar Background Colour */
+html.themeDark .vault {
+  background-color: var(--color1) !important;
+}
+
+/* internal links */
+markupmention {
+  color: var(--color7) !important;
+}
+
+/* external links */
+.blocks .block.blockText markuplink {
+  color: var(--color10) !important;
+}

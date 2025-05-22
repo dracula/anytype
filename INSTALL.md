@@ -1,4 +1,4 @@
-### [Anytyoe](https://anytype.io/)
+### [Anytype](https://anytype.io/)
 
 #### Install using Git
 
@@ -14,7 +14,7 @@ Download using the [GitHub `.zip` download](https://github.com/dracula/anytype/a
 
 #### Activating theme
 
-1. Unzip main.zip
-2. Copy custom.css file to your Anytype's work directory
+1. Copy `custom.css` file to your Anytype's work directory;
    ![image](https://github.com/user-attachments/assets/b22c6533-ae58-46ef-a686-887005073f28)
-3. Click on "Apply custom CSS"
+2. Click on "Apply custom CSS";
+3. Boom! It's working ✨
